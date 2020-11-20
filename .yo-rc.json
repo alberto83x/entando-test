@@ -1,0 +1,55 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "testalby.test.entando",
+      "nativeLanguage": "en"
+    },
+    "bundleName": "testalby-bundle",
+    "dockerOrganization": "alberto83x",
+    "generateMicroFrontends": "always",
+    "jhipsterVersion": "6.9.0",
+    "applicationType": "microservice",
+    "baseName": "testalby",
+    "packageName": "testalby.test.entando",
+    "packageFolder": "testalby/test/entando",
+    "serverPort": "8081",
+    "authenticationType": "oauth2",
+    "cacheProvider": "caffeine",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NDVkNzBjMzJlNGIzY2NhNDE5NGQ4NGI2ZDczM2NhYzA0N2JjMDhlZDQ5NDRjNGE5M2UzNWJmZDEwNzc3NjgwNWZjNTkxNGMyODlhNTZjMmUzYTBjNzVmNmYzM2E1ZTliNWZjZmNmNWMyNmFmMWUyNzRiYTMwNzEyMTZhZjI3ODU=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1605884902723,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "skipCheckLengthOfIdentifier": false,
+    "otherModules": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "6.2.0"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en", "it"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "6.2.0"
+      }
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
